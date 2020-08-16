@@ -1,0 +1,466 @@
+html{
+    scroll-behavior: smooth;
+}
+head{
+    width: 100%;
+}
+body{
+    background-color: f4f4f4;
+    color: #555;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    line-height: 1.6em;
+    margin: 1em;
+}
+
+.container{
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+#main-header{
+    background-color:forestgreen ;
+    color: #fff;
+}
+
+#navbar{
+    background-color: black;
+}
+
+#navbar ul{
+    padding: 0;
+    list-style: none;
+    width:100%;
+}
+
+#navbar li{
+    display: inline;
+}
+
+#navbar a{
+    color:#fff;
+    text-decoration: none;
+    font-size: 18px;
+    padding-right: 15px;
+}
+
+#navbar a:hover{
+    color: brown;
+}
+
+
+#navbar a:active{
+    color: forestgreen;
+}
+
+#showcase{
+    background-image: url(../images/talogo.png);
+    background-position: center, right;
+    min-height: 400px;
+    background-repeat: no-repeat;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+#main{
+    float: left;
+    width: 60%;
+    box-sizing: border-box;
+}
+
+#sidebar{
+    float: right;
+    width: 30%;
+    background: #333;
+    color: #fff;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+#main-footer{
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    margin-top: 40px;
+}
+
+#main-footer p{
+    color: #fff;
+    background: #333;
+}
+
+#space{
+    width: 100%;
+    height: 200px;
+}
+
+.listView {
+  width: 80%;
+  height: 200px;
+  background-image: url(../images/vicky.jpg);
+  background-position: center, right;
+  margin: 0;
+  border: 0;
+  padding: 0;
+}
+
+#home-link{
+    text-decoration: none;
+    font-size: 18px;
+    width: 100%;
+    height: 500px;
+    background-image: linear-gradient(transparent, transparent, black), url(../images/vicky.jpg);
+    background-repeat: 3;
+}
+
+
+#founder-body{
+    background-color: #fff;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    line-height: 1.6em;
+    margin: 1em;
+}
+
+.headers{
+    font-size: 50px;
+    text-align: center left;
+   
+}
+#founderdiv{
+    width: 100%;
+    height: 100px;
+    border: 1px solid black
+}
+
+#walz {
+    width: 100%;
+    height: 500px;
+    background-position: center, top;
+    background-image: linear-gradient(transparent, transparent, black), url(../images/walz.jpg);
+    box-shadow: 10px 10px 5px grey;
+    margin: 0;
+    border: 0;
+    padding: 0;
+    background-size:contain ;
+    position: relative;
+    background-repeat: 3;
+
+}
+#walz h1{
+    color: white;
+    text-shadow: 2px 2px 4px gray;
+    padding: 10px 10px;
+    position: absolute;
+    bottom: 15%;
+    left: 5%;
+  }
+  #walz h2{
+    text-shadow: 2px 2px 4px gray;
+    padding: 10px 10px;
+    position: absolute;
+    left: 5%;
+  }
+#walz h4{
+    color: white;
+    padding: 10px 10px;
+    position: absolute;
+    bottom: 5%;
+    left: 5%;
+}
+#somtoo{
+    width: 100%;
+    height: 500px;
+    background-position: center, top;
+    background-image: linear-gradient(transparent, transparent, black), url(../images/somtoo.jpg);
+    box-shadow: 10px 10px 5px grey;
+    margin: 0;
+    border: 0;
+    padding: 0;
+    background-size:contain ;
+    position: relative;
+    background-repeat: 3;
+  }
+  #somtoo h1{
+    text-shadow: 2px 2px 4px gray;
+    color: white;
+    padding: 2px;
+    position: absolute;
+    bottom: 15%;
+    left: 5%;
+      }
+      #somtoo h2{
+        text-shadow: 2px 2px 4px gray;
+        padding: 10px 10px;
+        position: absolute;
+        left: 5%;
+      }
+  #somtoo h4{
+    color: white;
+    padding: 2px;
+    position: absolute;
+    bottom: 5%;
+    left: 5%;
+  }
+  #michael{
+    width: 100%;
+    height: 500px;
+    background-position: center, top;
+    background-image: linear-gradient(transparent, transparent, black), url(../images/michael.jpg);
+    background-size: auto;
+    margin: 2px;
+    border: 2px;
+    padding: 2px;
+    background-size:contain ;
+    position: relative;
+    background-repeat: 3;
+
+  }
+  #michael h1{
+       text-shadow: 2px 2px 4px gray;
+       color: white;
+       padding: 2px;
+       position: absolute;
+       bottom: 15%;
+       left: 5%;
+    }
+    #michael h2{
+        text-shadow: 2px 2px 4px gray;
+        padding: 10px 10px;
+        position: absolute;
+        left: 5%;
+      }
+  #michael h4{
+    color: white;
+    padding: 2px;
+    position: absolute;
+    bottom: 5%;
+    left: 5%;
+  }
+
+  #michael :hover{
+    box-shadow: 10px 10px 5px grey;
+  }
+
+  #inter{
+    width: 100%;
+    height: 500px;
+    background-position: center, top;
+    background-image: linear-gradient(transparent, transparent, black), url(../images/kelvin.jpg);
+    box-shadow: 10px 10px 5px grey;
+    position: relative;
+    margin: 0;
+    border: 0;
+    background-size:contain ;
+    padding: 0;
+    background-repeat: 3;
+
+  }
+  #inter h1{
+    text-shadow: 2px 2px 4px gray;
+    color: white;
+    padding: 2px;
+    position: absolute;
+    bottom: 15%;
+    left: 5%;
+  }
+  #inter h2{
+    text-shadow: 2px 2px 4px gray;
+    padding: 10px 10px;
+    position: absolute;
+    left: 5%;
+  }
+  #inter h4{
+      color: white;
+    padding: 2px;
+    position: absolute;
+    bottom: 5%;
+    left: 5%;
+  }
+
+  #daze{
+    width: 100%;
+    height: 500px;
+    background-position: center, top;
+    background-image: linear-gradient(transparent, transparent, black), url(../images/daze.jpg);
+    box-shadow: 10px 10px 5px grey;
+    position: relative;
+    margin: 0;
+    border: 0;
+    padding: 0;
+    background-size:contain ;
+    background-repeat: 3;
+  }
+  #daze h1{
+    text-shadow: 2px 2px 4px gray;
+    color: white;
+    padding: 2px;
+    position: absolute;
+    bottom: 15%;
+    left: 5%;
+  }
+  #daze h2{
+    text-shadow: 2px 2px 4px gray;
+    padding: 10px 10px;
+    position: absolute;
+    left: 5%;
+  }
+  #daze h4{
+    color: white;
+    padding: 2px;
+    position: absolute;
+    bottom: 5%;
+    left: 5%;
+}
+
+#waldo{
+    width: 100%;
+    height: 500px;
+    background-position: center, top;
+    background-image: linear-gradient(transparent, transparent, black), url(../images/waldo.jpg);
+    box-shadow: 10px 10px 5px grey;
+    position: relative;
+    margin: 0;
+    border: 0;
+    background-size:contain ;
+    padding: 0;
+    background-repeat: 3;
+
+  }
+  #waldo h1{
+    text-shadow: 2px 2px 4px gray;
+    color: white;
+    padding: 2px;
+    position: absolute;
+    bottom: 15%;
+    left: 5%;
+  }
+  #waldo h2{
+    text-shadow: 2px 2px 4px gray;
+    padding: 10px 10px;
+    position: absolute;
+    left: 5%;
+  }
+  #waldo h4{
+      color: white;
+    padding: 2px;
+    position: absolute;
+    bottom: 5%;
+    left: 5%;
+  }
+  #kelly{
+    width: 100%;
+    height: 500px;
+    background-position: center, top;
+    background-image: linear-gradient(transparent, transparent, black), url(../images/kelly.jpg);
+    box-shadow: 10px 10px 5px grey;
+    position: relative;
+    margin: 0;
+    border: 0;
+    background-size:contain ;
+    padding: 0;
+    background-repeat: 3;
+
+  }
+  #kelly h1{
+    text-shadow: 2px 2px 4px gray;
+    color: white;
+    padding: 2px;
+    position: absolute;
+    bottom: 15%;
+    left: 5%;
+  }
+  #kelly h2{
+    text-shadow: 2px 2px 4px gray;
+    padding: 10px 10px;
+    position: absolute;
+    left: 5%;
+  }
+  #kelly h4{
+      color: white;
+    padding: 2px;
+    position: absolute;
+    bottom: 5%;
+    left: 5%;
+  }
+  .collapsible{
+      background-color: #eee;
+      color: #444;
+      cursor: pointer;
+      padding: 18px;
+      width: 100%;
+      border:none;
+      text-align: left;
+      outline: none;
+      font-size: 15px;
+  }
+  #michaeldiv{
+     height: auto;
+     width: 100%;
+     background: floralwhite;
+  }
+  #waldodiv{
+    height: auto;
+    width: 100%;
+    background: floralwhite;
+ }
+  #interdiv{
+    height: auto;
+    width: 100%;
+    background: floralwhite;
+  }
+  #dazediv{
+    height: auto;
+    width: 100%;
+    background: floralwhite;
+  }
+  #somtoodiv{
+    height: auto;
+    width: 100%;
+    background: floralwhite;
+  }
+  #walzdiv{
+    height: auto;
+    width: 100%;
+    background: floralwhite;
+  }
+  #kellydiv{
+    height: auto;
+    width: 100%;
+    background: floralwhite;
+  }
+  #div{
+    height: auto;
+    width: 100%;
+    background: floralwhite;
+  }
+  
+@media(max-width:800px){
+    #main{
+        width: 100%;
+        float: none;
+    }
+
+    
+    #sidebar{
+        width: 100%;
+        float: none;
+    }
+
+    #showcase{
+        background-size: contain;
+    }
+    
+#walz {
+    background-size: contain;
+  }
+
+  #somtoo{
+      background-size: contain;
+  }
+
+  
+}
